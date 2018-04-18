@@ -1,0 +1,4 @@
+1. To add all tracked files to the staging area use :git add -u
+2. To record a merge conflict resolution use git rerere. To enable it use :git config rerere.enabled true
+   Next time the same conflict is encountered, git will automatically apply it. You can view the diff of a merge with :git rerere
+3. To switch between the previous branch you were on and the current branch use : git checkout -   
